@@ -1059,6 +1059,7 @@ dependencies = [
 
 [package.dev-dependencies]
 dev = [
+    { name = "ipython" },
     { name = "jupyter" },
 ]
 
@@ -1069,7 +1070,10 @@ requires-dist = [
 ]
 
 [package.metadata.requires-dev]
-dev = [{ name = "jupyter", specifier = ">=1.1.1" }]
+dev = [
+    { name = "ipython", specifier = ">=9.14.1" },
+    { name = "jupyter", specifier = ">=1.1.1" },
+]
 
 [[package]]
 name = "pandocfilters"
