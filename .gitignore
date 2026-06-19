@@ -8,3 +8,17 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data files (실습 데이터셋은 커밋하지 않음)
+data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
